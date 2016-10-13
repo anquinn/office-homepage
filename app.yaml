@@ -2,6 +2,8 @@ runtime: python27
 api_version: 1
 threadsafe: yes
 
+default_expiration: "1d"
+
 handlers:
 
 - url: /(.+)
@@ -11,6 +13,10 @@ handlers:
 - url: /
   static_files: public/index.html
   upload: public/index.html
+
+- url: /img
+  static_dir: img
+
 
 libraries:
 - name: webapp2
