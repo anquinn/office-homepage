@@ -23,8 +23,8 @@ libraries:
   version: "2.5.2"
 
 skip_files:
-  - ^(.*/)?app\.yaml
-  - ^(.*/)?app\.yml
+  # - ^(.*/)?app\.yaml
+  # - ^(.*/)?app\.yml
   - ^(.*/)?#.*#
   - ^(.*/)?.*~
   - ^(.*/)?.*\.py[co]
